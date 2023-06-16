@@ -1,0 +1,19 @@
+//ContainerHeader
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0 30px;
+}
+
+//Logo
+.logo {
+  padding-bottom: 10px;
+}
+
+//Button
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+}

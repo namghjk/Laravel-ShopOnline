@@ -1,0 +1,24 @@
+.Product {
+  width: 400px;
+  height: 570px;
+  margin-bottom: 15px;
+}
+.Title {
+  font-size: 20px !important;
+  style: semibold !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.Price {
+  font-size: 16px !important;
+  color: brown;
+}
+.Button {
+  height: 40px !important;
+}
+
+.TextContainer {
+  padding: 16px 0;
+}

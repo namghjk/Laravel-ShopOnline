@@ -1,0 +1,73 @@
+//Header Content
+.ImageContainer {
+  background-image: url("https://petxinh.cdn.vccloud.vn/wp-content/uploads/2021/02/dog-treats-india-online-shopping-1.png");
+  filter: blur(8px);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.HeaderContainer {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TextContainer {
+  z-index: 2;
+}
+
+//Main Content
+.MainContainer {
+  padding-top: 24px;
+  display: flex;
+  width: 770px;
+  margin: auto;
+  flex-direction: column;
+  padding-bottom: 45px;
+}
+.IconContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.MainImage {
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  width: 100%;
+  flex-direction: column;
+}
+
+.imageDescriptionWrapper {
+  position: relative;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.imageDescriptionBorder {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-30%);
+  height: 80%;
+  width: 2px;
+  background-color: gray;
+}
+
+//FooterContainer
+.FooterContainer {
+  flex-direction: column;
+  width: 550px;
+  margin: auto;
+  padding-bottom: 150px;
+}
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}

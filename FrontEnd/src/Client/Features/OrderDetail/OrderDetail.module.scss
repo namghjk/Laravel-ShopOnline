@@ -1,0 +1,25 @@
+.Container {
+  padding: 100px 64px;
+}
+
+//Container phần  chính
+.ContentContainer {
+  border: 1px solid black;
+}
+
+//Header Table
+.TableHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 24px;
+  padding-top: 24px;
+}
+
+//Pagination
+.PaginationContainer {
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+}

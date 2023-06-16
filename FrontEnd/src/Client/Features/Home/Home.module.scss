@@ -1,0 +1,97 @@
+.contentStyle {
+  height: 500px;
+  color: pink;
+  line-height: 80px;
+  text-align: center;
+  background: #364d79;
+}
+
+.introductionContainer {
+  display: flex;
+  padding: 112px 0;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+  width: calc(100% - 64px * 2);
+}
+
+.titleContainer {
+  width: calc(100% - 40px);
+  margin-right: 50px;
+}
+.title {
+  font-style: bold !important;
+  font-size: 60px !important;
+  margin-left: 50px;
+}
+
+.contentContainer {
+  width: calc(100% - 40px);
+}
+
+.descriptionText {
+  font-size: 18px;
+}
+
+.buttonContainer {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 290px;
+}
+.button {
+  height: 48px !important;
+}
+
+.descriptionContainer {
+  display: flex;
+  padding-bottom: 112px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imageIntroductionContainer {
+  width: 616px;
+  height: 640px;
+  object-fit: inherit;
+}
+
+.introdutionText {
+  padding: 250px 0;
+  padding-right: 80px;
+  width: 616px;
+  font-size: 18px;
+  padding-bottom: 200px;
+}
+.introductionImage {
+  padding-top: 50px;
+}
+
+.ProductTitle {
+  display: flex;
+  width: 100%;
+  height: 58px;
+  justify-content: space-between;
+  padding: 0 64px;
+}
+.productContainer {
+  padding: 64px 64px;
+  padding-bottom: 112px;
+}
+
+.eventContainer {
+  padding: 64px 64px;
+  padding-bottom: 112px;
+  display: flex;
+  flex-direction: column;
+}
+.eventContext {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+}
+.evenContent {
+  padding-top: 100px;
+}

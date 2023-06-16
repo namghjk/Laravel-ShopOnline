@@ -1,0 +1,49 @@
+.containerContext {
+  padding: 0 64px;
+  display: flex;
+}
+
+.detailContainer {
+  text-align: left;
+  padding-bottom: 24px;
+  width: 70%;
+}
+.logo {
+  padding-bottom: 32px;
+}
+.addressContainer {
+  padding-bottom: 24px;
+}
+
+.linkContainer {
+  padding-top: 5px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.link {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.linkForm {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+}
+
+.SocialLink {
+  padding: 0 64px;
+}
+
+.containerCopyRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 64px;
+  padding-bottom: 40px;
+}

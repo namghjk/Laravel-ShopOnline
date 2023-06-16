@@ -1,0 +1,27 @@
+//Page Container
+.OderContainer {
+  padding: 0 64px;
+}
+
+//ContentContainer
+.ContentContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 112px 0;
+}
+
+//ProductContainer
+.ProductContainer {
+  width: 50%vh;
+}
+
+//Input Container
+.InputContainer {
+  padding-left: 80px;
+  width: 50%;
+}
+
+//Relative Product
+.RelativeProduct {
+  padding-bottom: 112px;
+}

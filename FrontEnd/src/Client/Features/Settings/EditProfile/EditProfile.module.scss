@@ -1,0 +1,11 @@
+//Page Container
+.Container {
+  padding: 0 150px;
+}
+
+//first div container
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

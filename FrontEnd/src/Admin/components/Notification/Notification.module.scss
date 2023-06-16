@@ -1,0 +1,13 @@
+.notificationComponent {
+    padding-right: 4px;
+}
+.progress {
+    visibility: hidden;
+}
+.notification {
+    display: flex;
+    align-items: center;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    overflow: visible;
+}

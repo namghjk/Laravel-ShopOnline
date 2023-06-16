@@ -1,0 +1,37 @@
+.Container {
+  padding: 80px 64px;
+}
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+}
+.ProductContainer {
+  border: 0.2px dashed gray;
+  min-height: 2000px;
+  padding-left: 24px;
+}
+
+.TagContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Product {
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+.PaginationContainer {
+  justify-content: center;
+  display: flex;
+  padding: 50px 0;
+  padding-top: 200px;
+  padding-right: 30px;
+}
+
+//ContextContaine
+.ContextContainer {
+  padding-left: 64px;
+  width: calc(100% - 288px);
+}
